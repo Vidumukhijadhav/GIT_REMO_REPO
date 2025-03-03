@@ -1,0 +1,37 @@
+Step1-  Install git environment
+step2-  create working directory/folder
+step3-	open the working directory with git bash
+step4-	initialize the current working directory with git using git command
+	git init
+step5-	log in into GitHub acc
+step6-	create new remote repository in the GitHub
+step7- 	to link the remote repo to local repo --
+	* copy the url of repo from GitHub
+	* go to local repo's bash 
+	* use command:
+		git remote add origin (url)
+step8-	to connect GitHub to gitbash (remoye repo to local repo)
+		git pull origin main(branch-name)
+step9	to check the same number of files are present on both the repo
+		ls -la or ls -lrth
+
+
+
+
+
+step10-	create a file on working directory with bash
+	touch filename.exe
+step11-	to edit the file and add
+	vim filename.exe
+step12- To check the status
+		git status
+step13- To add new file on stagging repo
+		git add filenames
+step14- To add file on stagging repo to local repo
+		git commit -m "message to pass"
+step15-	To add file from local repo to remote repo
+		git push origin
+step16- We will check  for these all files on GitHub manually
+
+
+
